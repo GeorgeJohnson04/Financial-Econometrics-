@@ -1,5 +1,5 @@
 # Assignment 1 George Johnson
-# Claude code utilized for debugging and
+# Claude code utilized for debugging
 
 library(quantmod)
 library(tseries)
