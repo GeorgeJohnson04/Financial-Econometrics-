@@ -1,0 +1,44 @@
+ADF TEST - XLF RETURNS
+
+	Augmented Dickey-Fuller Test
+
+data:  xlf_returns
+Dickey-Fuller = -17.396, Lag order = 17, p-value = 0.01
+alternative hypothesis: stationary
+
+
+ADF TEST - KRE RETURNS
+
+	Augmented Dickey-Fuller Test
+
+data:  kre_returns
+Dickey-Fuller = -16.857, Lag order = 17, p-value = 0.01
+alternative hypothesis: stationary
+
+
+ADF SUMMARY
+       Series ADF_stat Lags p_value Stationary
+1 XLF returns  -17.396   17    0.01        Yes
+2 KRE returns  -16.857   17    0.01        Yes
+
+
+LJUNG-BOX TEST - XLF RETURNS
+
+	Box-Ljung test
+
+data:  xlf_returns
+X-squared = 221.66, df = 30, p-value < 2.2e-16
+
+
+LJUNG-BOX TEST - KRE RETURNS
+
+	Box-Ljung test
+
+data:  kre_returns
+X-squared = 118.8, df = 30, p-value = 1.622e-12
+
+
+LJUNG-BOX SUMMARY
+       Series Chi_squared DF   p_value White_Noise
+1 XLF returns     221.661 30 < 2.2e-16          No
+2 KRE returns     118.796 30 1.622e-12          No
